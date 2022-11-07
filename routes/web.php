@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +18,17 @@ use App\Http\Controllers;
 
 Route::get('/', [App\Http\Controllers\Auth\LoginController::class, 'showLoginForm']);
 
-Auth::routes();
+
+// Route::get('/register', [App\Http\Controllers\Auth\RegisterController::class, 'showRegistrationForm'])->middleware('is_admin');
+
+// Route::middleware(['auth', 'guest'])->group(function () {
+//     Auth::routes(['register' => false]);
+// });
+
+
+Route::middleware('is_admin')->group(function () {
+    Auth::routes(['register' => true]);
+});
+Auth::routes(['register' => false]);
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
