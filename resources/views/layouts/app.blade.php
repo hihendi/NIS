@@ -10,12 +10,13 @@
 
     <title>{{ config('app.name', 'NIS') }}</title>
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <!-- Style -->
+    @stack('prepend-style')
+    @include('layouts.includes.style')
+    @stack('prepend-style')
 
-    <!-- Scripts -->
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+
+
 </head>
 
 <body>
@@ -80,6 +81,12 @@
             @yield('content')
         </main>
     </div>
+    <!-- Scripts -->
+    @stack('prepend-script')
+    @include('layouts.includes.script')
+    @stack('addon-script')
 </body>
+
+
 
 </html>
