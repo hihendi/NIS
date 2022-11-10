@@ -1,7 +1,8 @@
 <?php
 
+use App\Http\Controllers\Admin\RoleController;
+use App\Http\Controllers\Admin\UserController;
 use Illuminate\Support\Facades\Route;
-use App\Models\User;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Auth;
 
@@ -28,6 +29,10 @@ Route::get('/', [App\Http\Controllers\Auth\LoginController::class, 'showLoginFor
 
 Route::middleware('is_admin')->group(function () {
     Auth::routes(['register' => true]);
+    Route::prefix('dashboard')->middleware('auth')->group(function () {
+        Route::resource('users', UserController::class);
+        Route::resource('roles', RoleController::class);
+    });
 });
 Auth::routes(['register' => false]);
 Route::prefix('dashboard')->middleware('auth')->group(function () {

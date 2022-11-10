@@ -13,7 +13,7 @@
     <!-- Style -->
     @stack('prepend-style')
     @include('layouts.includes.style')
-    @stack('prepend-style')
+    @stack('addon-style')
 
 
 
