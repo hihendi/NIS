@@ -1,1 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2022-11-14T09:00:25.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="yvbeDHZsrmClT9J9FAb6" type="github"><diagram id="mZ_q7Hd6Ja_6lfhl-JyE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-14T14:55:24.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="thRT__-_12bMhlwkM_O1" version="20.5.3" type="github">
+  <diagram id="mZ_q7Hd6Ja_6lfhl-JyE" name="Page-1">
+    <mxGraphModel dx="868" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WqdOP83By7zs7RVWLoho-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="50" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-2" value="ADMIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-3" value="All Feature and reports" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-4" value="All&lt;br&gt;Feature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="70" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="50" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-6" value="NOC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-7" value="All Feature and reports, Except : Manage Users" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-8" value="Except :&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;gt; Manage Users&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="130" width="70" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-9" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-10" value="Teknisi" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="450" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-11" value="&amp;nbsp;reports, Except : Manage Users, Manage OLT, Manage Upstream" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-12" value="Except :&lt;br&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;gt; Manage Users&lt;br&gt;&amp;gt; Manage OLT&lt;br&gt;&amp;gt; Manage Upstream&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="70" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-14" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="340" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-15" value="Guest" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="450" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-16" value="Report and chart" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="580" y="480" width="220" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="WqdOP83By7zs7RVWLoho-17" value="&lt;span style=&quot;background-color: initial;&quot;&gt;Report, chart&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="490" y="510" width="70" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
